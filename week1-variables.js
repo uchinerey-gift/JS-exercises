@@ -99,7 +99,7 @@ const myAnswerForExercise21 = "true";
 // (2 < 1) -> false -> coerces to 0; 0 < 3 -> true
 const myAnswerForExercise22 = "true";
 
-/ Reflection:
+// Reflection:
 // I found this set manageable overall. Declaring variables and basic operators were easy,
 // but the trickier parts were operator precedence (e.g., A + B * 2 + D + C / 2) and
 // chained comparisons like 1 < 2 < 3 (type coercion got me at first).
