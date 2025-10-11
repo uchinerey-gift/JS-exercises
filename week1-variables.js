@@ -109,3 +109,25 @@ const myAnswerForExercise22 = "true";
 // - freeCodeCamp (JS basics and debugging exercises)
 // - Udemy (Intro to JavaScript & Git/GitHub sections for workflow understanding)
 // - Git & GitHub docs (commit messages, creating/editing files in a repo)
+
+//// --- Test Output Section ---
+console.log("✅ Week 1 Variables file ran successfully!");
+console.log("theSum =", theSum);
+console.log("theProduct =", theProduct);
+console.log("statement =", statement);
+
+console.log("10:", myAnswerForExercise10);
+console.log("11:", myAnswerForExercise11);
+console.log("12:", myAnswerForExercise12);
+console.log("13:", myAnswerForExercise13);
+console.log("14:", myAnswerForExercise14);
+console.log("15:", myAnswerForExercise15);
+console.log("16:", myAnswerForExercise16);
+console.log("17:", myAnswerForExercise17);
+console.log("18:", myAnswerForExercise18);
+console.log("19:", myAnswerForExercise19);
+console.log("20:", myAnswerForExercise20);
+console.log("21:", myAnswerForExercise21);
+console.log("22:", myAnswerForExercise22);
+
+
