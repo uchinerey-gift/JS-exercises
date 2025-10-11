@@ -323,3 +323,39 @@ These helped confirm my answers.
 
 // Commit your file to GitHub.
 // Then run the file using Node.js to make sure there are no syntax errors.
+
+//// --- Sanity tests (temporary) ---
+console.log("exercise1(5)  ->", exercise1(5));      // "num1 is small"
+console.log("exercise1(12) ->", exercise1(12));     // "The value of num1 is 12 and is greater than 10"
+
+console.log("exercise2(4)  ->", exercise2(4));      // "4 is even"
+console.log("exercise2(5)  ->", exercise2(5));      // "5 is odd"
+
+console.log("exercise3(3)  ->", exercise3(3));      // "3 is positive"
+console.log("exercise3(-2) ->", exercise3(-2));     // "-2 is negative"
+console.log("exercise3(0)  ->", exercise3(0));      // "0 is zero"
+
+console.log('exercise4("5", 5) ->', exercise4("5", 5)); // "varA and varB are equal" (loose equality allowed)
+console.log("exercise4(2, 3) ->", exercise4(2, 3));     // "varA and varB differ"
+
+console.log("exercise6(3,3,4) ->", exercise6(3, 3, 4)); // true
+console.log("exercise6(3,3,3) ->", exercise6(3, 3, 3)); // false
+
+console.log("exercise7(1)      ->", exercise7(1));       // "You won!"
+console.log("exercise7(7)      ->", exercise7(7));       // "You are lucky!"
+console.log("exercise7(101)    ->", exercise7(101));     // "Welcome to coding 101!"
+console.log("exercise7(1000000)->", exercise7(1000000)); // "You are one in a million!"
+console.log("exercise7(42)     ->", exercise7(42));      // "Thanks for that!"
+
+console.log("exercise8(5,7,1,10)   ->", exercise8(5, 7, 1, 10));   // true
+console.log("exercise8(5,11,1,10)  ->", exercise8(5, 11, 1, 10));  // false
+console.log("exercise8(12,3,10,0)  ->", exercise8(12, 3, 10, 0));  // false (range is 0..10)
+
+console.log("exercise9(7)     ->", exercise9(7));        // number path
+console.log("exercise9('hi')  ->", exercise9("hi"));     // "Please send a number, that was a string."
+console.log("exercise9(true)  ->", exercise9(true));     // "Please send a number, that was a boolean."
+
+console.log("exercise10(3)   ->", exercise10(3));        // "Fizz"
+console.log("exercise10(5)   ->", exercise10(5));        // "Buzz"
+console.log("exercise10(15)  ->", exercise10(15));       // "Fizz Buzz"
+console.log("exercise10(7)   ->", exercise10(7));        // 7
